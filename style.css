@@ -43,6 +43,7 @@ nav a{
 
 }
 
+/* Logo team */
 .logoteam{
     margin-left: 3%;
     display: flex;
@@ -69,8 +70,8 @@ nav ul{
  .dropdown {
    float: left;
    overflow: hidden;
-   /* display: flex; */
  }
+
 /* dropdown button*/
  .dropdown .dropdown_button {
     border: none;
@@ -86,6 +87,7 @@ nav ul{
     display: flex;
  }
 
+ /* gradient colour movement at hover  */
  .navbar a:hover, .dropdown:hover .dropdown_button {
     background: linear-gradient(to right, rgb(156,242,208),rgb(84, 142, 190), rgb(37, 104, 204));
     background-size: 3000% 3000%;
@@ -97,6 +99,7 @@ nav ul{
     border-radius: 30px;
  }
 
+  /* List of group members*/
  .Members {
    display: none;
    position: absolute;
@@ -124,7 +127,8 @@ nav ul{
    display: block;
  }
 
-.Mainpage1{
+  /* Set up mainpage */
+  .Mainpage1{
     margin-top: 30px;
     background: rgb(240, 189, 95);
     background: linear-gradient(153deg, rgb(245, 183, 69) 0%, rgba(242,207,142,1) 28%, rgba(252,252,252,1) 60%);
@@ -159,6 +163,12 @@ nav ul{
     width: 60%;
 }
 
+.Mainpage1 p{
+    color: #5a471c;
+    font-size: 18px;
+    text-align: justify;
+}
+
 .Mainpage2{
     background: #fc31e4;
     background: linear-gradient(180deg, #fce1e4 0%, #fde4e5 50%, rgba(252,252,252,1) 70%);
@@ -171,24 +181,42 @@ nav ul{
     text-transform: uppercase;
 }
 
+.Mainpage2 h1{
+    font-size: 22px;
+    text-align: center;
+}
+
 .Mainpage2 p{
     color: #5a471c;
     text-align: justify;
+    font-size: 20px
 }
 
-.Mainpage2 .Box {
-    background: linear-gradient(180deg, #ddedea 0%, #deeeeb 50%, rgba(252,252,252,1) 70%);
-    width: 300px;
+.Mainpage2 .Container{
+    display: flex;
+}
+
+.Mainpage2 .Container .Box2 {
+    background: linear-gradient(180deg, #e8dff5 0%, #eae2f5 40%, rgba(252,252,252,1) 85%);
+    width: 400px;
     border: 1px solid black;
     padding: 50px;
     margin: 20px;
 }
 
-.Mainpage2 .Box p{
+.Mainpage2 .Container .Box2 p{
     color: #000000;
-    text-align: justify;
+    text-align: center;
+    font-size: 20px;
 }
 
+.Mainpage2 .Container .Box2 a{
+    color: #0052bd;
+    text-align: center;
+    font-size: 20px;
+}
+
+ /* Background image at mainpage */
 .background_image {
     opacity: 0.3;
     max-width: 100%;
@@ -198,8 +226,7 @@ nav ul{
 
 }
 
-
-
+ /* Design content in Group Profile page */
 .GroupProfile1 {
     margin-top: 30px;
     background: rgb(240, 189, 95);
@@ -289,6 +316,7 @@ nav ul{
     display: inline;
 }
 
+ /* Copyright at the footer of each page */
 .copyright {
     margin-left: 5%;
     margin-right: 5%;
@@ -297,6 +325,7 @@ nav ul{
     text-align: center;
 }
 
+/* Interview page */
 .Interview{
     margin-left: 10%;
     margin-right: 10%;
@@ -329,6 +358,7 @@ nav ul{
     padding: 20px;
 }
 
+ /* Project page  */
 .Project h1{
     color: #d69d2b;
     text-align: center;
@@ -354,6 +384,7 @@ nav ul{
     text-align: justify;
 }
 
+ /* IT Technologies page  */
 .IT_Technologies{
     margin-left: 10%;
     margin-right: 10%;
