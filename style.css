@@ -124,21 +124,30 @@ nav ul{
    display: block;
  }
 
-.Mainpage{
+.Mainpage1{
+    margin-top: 30px;
+    background: rgb(240, 189, 95);
+    background: linear-gradient(153deg, rgb(245, 183, 69) 0%, rgba(242,207,142,1) 28%, rgba(252,252,252,1) 60%);
+    text-align: center;
+    align-items: center;
+    padding: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 50px;
-    position: relative;
-    display: inline-block;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
-.Mainpage h1{
-    color: turquoise;
-    font-weight: 900;
-    text-align: center;
+.Mainpage1 h1{
+    color: #5a471c;
+    text-align: justify;
 }
 
-.Mainpage h2{
+.Mainpage1 h2{
+    color: #8f691e;
+    text-align: left;
+}
+
+.Mainpage1 h3{
     color: #d61f1f;
     font-size: 20px;
     text-align: justify;
@@ -148,6 +157,36 @@ nav ul{
     right: 0;
     top: 40%;
     width: 60%;
+}
+
+.Mainpage2{
+    background: #fc31e4;
+    background: linear-gradient(180deg, #fce1e4 0%, #fde4e5 50%, rgba(252,252,252,1) 70%);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Mainpage2 p{
+    color: #5a471c;
+    text-align: justify;
+}
+
+.Mainpage2 .Box {
+    background: linear-gradient(180deg, #ddedea 0%, #deeeeb 50%, rgba(252,252,252,1) 70%);
+    width: 300px;
+    border: 1px solid black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.Mainpage2 .Box p{
+    color: #000000;
+    text-align: justify;
 }
 
 .background_image {
